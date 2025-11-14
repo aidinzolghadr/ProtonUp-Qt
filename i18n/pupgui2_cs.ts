@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE TS>
-<TS version="2.1" language="es_ES">
+<TS version="2.1" language="cs">
 <context>
     <name>CtInstaller</name>
     <message>
         <location filename="../pupgui2/resources/ctmods/ctmod_luxtorpeda.py" line="105"/>
         <source>Missing dependencies!</source>
-        <translation>¡Faltan dependencias!</translation>
+        <translation>Chybějící závislosti!</translation>
     </message>
     <message>
         <location filename="../pupgui2/resources/ctmods/ctmod_00protonge.py" line="75"/>
@@ -14,7 +14,7 @@
         <location filename="../pupgui2/resources/ctmods/ctmod_steamplaynone.py" line="69"/>
         <location filename="../pupgui2/resources/ctmods/ctmod_z0dxvk.py" line="75"/>
         <source>Download Error!</source>
-        <translation>¡Error al descargar!</translation>
+        <translation>Chyba stahování!</translation>
     </message>
     <message>
         <location filename="../pupgui2/resources/ctmods/ctmod_00protonge.py" line="77"/>
@@ -24,9 +24,9 @@
         <source>Failed to download tool &apos;{CT_NAME}&apos;!
 
 Reason: {EXCEPTION}</source>
-        <translation>¡Error al descargar la herramienta &quot;{CT_NAME}&quot;!
+        <translation>Nepodařilo se stáhnout nástroj „{CT_NAME}“!
 
-Motivo: {EXCEPTION}</translation>
+Důvod: {EXCEPTION}</translation>
     </message>
 </context>
 <context>
@@ -34,7 +34,7 @@ Motivo: {EXCEPTION}</translation>
     <message>
         <location filename="../pupgui2/ctloader.py" line="52"/>
         <source>Error!</source>
-        <translation>¡Error!</translation>
+        <translation>Chyba!</translation>
     </message>
     <message>
         <location filename="../pupgui2/ctloader.py" line="54"/>
@@ -42,10 +42,10 @@ Motivo: {EXCEPTION}</translation>
 {TOOL_LIST}
 
 If you believe this is an error, please report a bug on GitHub!</source>
-        <translation>No se pudieron cargar las siguientes herramientas de compatibilidad:
+        <translation>Nepodařilo se načíst následující nástroje pro kompatibilitu:
 {TOOL_LIST}
 
-¡Si crees que esto en un error, haz un reporte del bug en GitHub!</translation>
+Pokud si myslíte, že se jedná o chybu, nahlaste to prosím jako problém na GitHubu!</translation>
     </message>
 </context>
 <context>
@@ -53,7 +53,7 @@ If you believe this is an error, please report a bug on GitHub!</source>
     <message>
         <location filename="../pupgui2/resources/ui/pupgui2_gitaccesstokendialog.ui" line="20"/>
         <source>Configure Git access tokens</source>
-        <translation>Configurar tokens de acceso de Git</translation>
+        <translation>Nastavit přístupové tokeny Gitu</translation>
     </message>
     <message>
         <location filename="../pupgui2/resources/ui/pupgui2_gitaccesstokendialog.ui" line="29"/>
@@ -63,12 +63,12 @@ If you believe this is an error, please report a bug on GitHub!</source>
     <message>
         <location filename="../pupgui2/resources/ui/pupgui2_gitaccesstokendialog.ui" line="51"/>
         <source>Save</source>
-        <translation>Guardar</translation>
+        <translation>Uložit</translation>
     </message>
     <message>
         <location filename="../pupgui2/resources/ui/pupgui2_gitaccesstokendialog.ui" line="58"/>
         <source>Close</source>
-        <translation>Cerrar</translation>
+        <translation>Zavřít</translation>
     </message>
     <message>
         <location filename="../pupgui2/resources/ui/pupgui2_gitaccesstokendialog.ui" line="70"/>
@@ -78,7 +78,7 @@ If you believe this is an error, please report a bug on GitHub!</source>
     <message>
         <location filename="../pupgui2/resources/ui/pupgui2_gitaccesstokendialog.ui" line="93"/>
         <source>This dialog allows you to configure access tokens for the GitHub/GitLab API to prevent the API rate limit warning.</source>
-        <translation>Este diálogo le permite configurar los tokens de acceso para la API de GitHub/GitLab para evitar advertencias de límite de velocidad de la API.</translation>
+        <translation>Tento dialog vám umožňuje nastavit přístupové tokeny pro API GitHub/GitLab pro zabránění varování o limitu požadavků na API.</translation>
     </message>
 </context>
 <context>
@@ -86,156 +86,156 @@ If you believe this is an error, please report a bug on GitHub!</source>
     <message>
         <location filename="../pupgui2/pupgui2.py" line="277"/>
         <source>unused</source>
-        <translation>sin usar</translation>
+        <translation>nepoužité</translation>
     </message>
     <message>
         <location filename="../pupgui2/pupgui2.py" line="277"/>
         <source>global</source>
-        <translation>global</translation>
+        <translation>globální</translation>
     </message>
     <message>
         <location filename="../pupgui2/pupgui2.py" line="298"/>
         <source>Unused: {unused_ctools}</source>
-        <translation>Sin usar: {unused_ctools}</translation>
+        <translation>Nepoužité: {unused_ctools}</translation>
     </message>
     <message>
         <location filename="../pupgui2/pupgui2.py" line="325"/>
         <source>Fetching releases...</source>
-        <translation>Obteniendo lanzamientos...</translation>
+        <translation>Načítání vydání…</translation>
     </message>
     <message>
         <location filename="../pupgui2/pupgui2.py" line="336"/>
         <source>Download canceled.</source>
-        <translation>Descarga cancelada.</translation>
+        <translation>Stahování zrušeno.</translation>
     </message>
     <message>
         <location filename="../pupgui2/pupgui2.py" line="339"/>
         <source>Could not install {current_compat_tool_name}...</source>
-        <translation>No se pudo instalar {current_compat_tool_name}...</translation>
+        <translation>Nepodařilo se nainstalovat {current_compat_tool_name}…</translation>
     </message>
     <message>
         <location filename="../pupgui2/pupgui2.py" line="345"/>
         <source>Downloading {current_compat_tool_name}...</source>
-        <translation>Descargando {current_compat_tool_name}...</translation>
+        <translation>Stahuji {current_compat_tool_name}…</translation>
     </message>
     <message>
         <location filename="../pupgui2/pupgui2.py" line="347"/>
         <source>Extracting {current_compat_tool_name}...</source>
-        <translation>Extrayendo {current_compat_tool_name}...</translation>
+        <translation>Extrahuji {current_compat_tool_name}…</translation>
     </message>
     <message>
         <location filename="../pupgui2/pupgui2.py" line="349"/>
         <source>Installing {current_compat_tool_name}...</source>
-        <translation>Instalando {current_compat_tool_name}...</translation>
+        <translation>Instaluji {current_compat_tool_name}…</translation>
     </message>
     <message>
         <location filename="../pupgui2/pupgui2.py" line="351"/>
         <source>Installed {current_compat_tool_name}.</source>
-        <translation>Instalado {current_compat_tool_name}.</translation>
+        <translation>Nástroj {current_compat_tool_name} nainstalován.</translation>
     </message>
     <message>
         <location filename="../pupgui2/pupgui2.py" line="377"/>
         <source>Remove compatibility tools?</source>
-        <translation>¿Eliminar la herramienta de compatibilidad?</translation>
+        <translation>Odstranit nástroje pro kompatibilitu?</translation>
     </message>
     <message>
         <location filename="../pupgui2/pupgui2.py" line="377"/>
         <source>You are trying to remove compatibility tools
 which are in use by {n} games. Continue?</source>
-        <translation>Esta intentando eliminar herramientas de compatibilidad
-que están en uso por {n} juegos. ¿Continuar?</translation>
+        <translation>Pokoušíte se odstranit nástroje pro kompatibilitu,
+které používá {n} her. Chcete pokračovat?</translation>
     </message>
     <message>
         <location filename="../pupgui2/pupgui2.py" line="384"/>
         <source>Removed selected versions.</source>
-        <translation>Versiones seleccionadas eliminadas.</translation>
+        <translation>Vybrané verze odstraněny.</translation>
     </message>
     <message>
         <location filename="../pupgui2/pupgui2.py" line="398"/>
         <source>Exit?</source>
-        <translation>¿Salir?</translation>
+        <translation>Ukončit?</translation>
     </message>
     <message>
         <location filename="../pupgui2/pupgui2.py" line="398"/>
         <source>There are pending downloads.
 Cancel and exit anyway?</source>
-        <translation>Hay descargas pendientes.
-¿Cancelar y salir de todos modos?</translation>
+        <translation>Máte čekající stahování.
+Chcete je zrušit a ukončit aplikaci?</translation>
     </message>
     <message>
         <location filename="../pupgui2/pupgui2.py" line="411"/>
         <source>Changed install directory to {install_dir}.</source>
-        <translation>Cambiado el directorio de instalación a {install_dir}.</translation>
+        <translation>Instalační adresář změněn na {install_dir}.</translation>
     </message>
     <message>
         <location filename="../pupgui2/pupgui2.py" line="460"/>
         <source>Install tool from Flathub</source>
-        <translation>Instalar herramienta desde Flathub</translation>
+        <translation>Nainstalovat nástroj z Flathubu</translation>
     </message>
     <message>
         <location filename="../pupgui2/pupgui2.py" line="462"/>
         <source>Click to open your app store</source>
-        <translation>Click para abrir tu tienda de aplicaciones</translation>
+        <translation>Klikněte pro otevření obchodu s aplikacemi</translation>
     </message>
     <message>
         <location filename="../pupgui2/resources/ui/pupgui2_mainwindow.ui" line="20"/>
         <source>ProtonUp-Qt - Wine/Proton Installer</source>
-        <translation>ProtonUp-Qt - Instalador Wine/Proton</translation>
+        <translation>ProtonUp-Qt – Instalátor Wine/Protonu</translation>
     </message>
     <message>
         <location filename="../pupgui2/resources/ui/pupgui2_mainwindow.ui" line="48"/>
         <source>Install for:</source>
-        <translation>Instalar para:</translation>
+        <translation>Nainstalovat pro:</translation>
     </message>
     <message>
         <location filename="../pupgui2/resources/ui/pupgui2_mainwindow.ui" line="68"/>
         <source>Active downloads:</source>
-        <translation>Descargas activas:</translation>
+        <translation>Aktivní stahování:</translation>
     </message>
     <message>
         <location filename="../pupgui2/resources/ui/pupgui2_mainwindow.ui" line="89"/>
         <source>Add Custom Install Directory...</source>
-        <translation>Añadir directorio de instalación personalizado...</translation>
+        <translation>Přidat vlastní adresář instalace…</translation>
     </message>
     <message>
         <location filename="../pupgui2/resources/ui/pupgui2_mainwindow.ui" line="103"/>
         <source>Installed compatibility tools:</source>
-        <translation>Herramientas de compatibilidad instaladas:</translation>
+        <translation>Nainstalované nástroje pro kompatibilitu:</translation>
     </message>
     <message>
         <location filename="../pupgui2/resources/ui/pupgui2_mainwindow.ui" line="148"/>
         <source>Add version</source>
-        <translation>Añadir versión</translation>
+        <translation>Přidat verzi</translation>
     </message>
     <message>
         <location filename="../pupgui2/resources/ui/pupgui2_mainwindow.ui" line="155"/>
         <source>Remove selected</source>
-        <translation>Eliminar seleccionada</translation>
+        <translation>Odstranit vybrané</translation>
     </message>
     <message>
         <location filename="../pupgui2/resources/ui/pupgui2_mainwindow.ui" line="162"/>
         <source>Show info</source>
-        <translation>Mostrar información</translation>
+        <translation>Zobrazit informace</translation>
     </message>
     <message>
         <location filename="../pupgui2/resources/ui/pupgui2_mainwindow.ui" line="199"/>
         <source>Get tools from Flathub</source>
-        <translation>Obtener herramientas desde Flathub</translation>
+        <translation>Získat nástroje z Flathubu</translation>
     </message>
     <message>
         <location filename="../pupgui2/resources/ui/pupgui2_mainwindow.ui" line="206"/>
         <source>Show game list</source>
-        <translation>Mostrar lista de juegos</translation>
+        <translation>Zobrazit seznam her</translation>
     </message>
     <message>
         <location filename="../pupgui2/resources/ui/pupgui2_mainwindow.ui" line="213"/>
         <source>About</source>
-        <translation>Acerca de</translation>
+        <translation>O aplikaci</translation>
     </message>
     <message>
         <location filename="../pupgui2/resources/ui/pupgui2_mainwindow.ui" line="220"/>
         <source>Close</source>
-        <translation>Cerrar</translation>
+        <translation>Zavřít</translation>
     </message>
 </context>
 <context>
@@ -243,64 +243,64 @@ Cancel and exit anyway?</source>
     <message>
         <location filename="../pupgui2/resources/ui/pupgui2_custominstalldirectorydialog.ui" line="20"/>
         <source>Dialog</source>
-        <translation>Diálogo</translation>
+        <translation>Dialog</translation>
     </message>
     <message>
         <location filename="../pupgui2/resources/ui/pupgui2_custominstalldirectorydialog.ui" line="29"/>
         <source>Specify a custom location for downloading and displaying a launcher&apos;s compatibility tools.</source>
-        <translation>Especifica una ubicación personalizada para descargar y mostrar las herramientas de compatibilidad del lanzador.</translation>
+        <translation>Zadejte vlastní umístění pro stahování a zobrazování nástrojů pro kompatibilitu.</translation>
     </message>
     <message>
         <location filename="../pupgui2/resources/ui/pupgui2_custominstalldirectorydialog.ui" line="41"/>
         <source>Directory:</source>
-        <translation>Directorio:</translation>
+        <translation>Adresář:</translation>
     </message>
     <message>
         <location filename="../pupgui2/resources/ui/pupgui2_custominstalldirectorydialog.ui" line="51"/>
         <source>Launcher:</source>
-        <translation>Lanzador:</translation>
+        <translation>Spouštěč:</translation>
     </message>
     <message>
         <location filename="../pupgui2/resources/ui/pupgui2_custominstalldirectorydialog.ui" line="85"/>
         <source>Reset the custom install directory back to default for this launcher</source>
-        <translation>Restablece el directorio personalizado de instalación al predeterminado para este lanzador</translation>
+        <translation>Resetovat vlastní adresář instalace zpět na výchozí pro tento spouštěč</translation>
     </message>
     <message>
         <location filename="../pupgui2/resources/ui/pupgui2_custominstalldirectorydialog.ui" line="88"/>
         <source>Default</source>
-        <translation>Predeterminado</translation>
+        <translation>Výchozí</translation>
     </message>
     <message>
         <location filename="../pupgui2/resources/ui/pupgui2_custominstalldirectorydialog.ui" line="111"/>
         <source>Save</source>
-        <translation>Guardar</translation>
+        <translation>Uložit</translation>
     </message>
     <message>
         <location filename="../pupgui2/resources/ui/pupgui2_ctbatchupdatedialog.ui" line="20"/>
         <location filename="../pupgui2/resources/ui/pupgui2_ctbatchupdatedialog.ui" line="105"/>
         <source>Batch Update</source>
-        <translation>Actualización por lotes</translation>
+        <translation>Hromadná aktualizace</translation>
     </message>
     <message>
         <location filename="../pupgui2/resources/ui/pupgui2_ctbatchupdatedialog.ui" line="29"/>
         <source>Migrate games using the current compatibility tool to the one specified below.</source>
-        <translation>Migra los juegos que utilizan la herramienta de compatibilidad actual a la que se especifica a continuación.</translation>
+        <translation>Migrovat hry používající aktuální nástroj pro kompatibilitu na ten zvolený níže.</translation>
     </message>
     <message>
         <location filename="../pupgui2/resources/ui/pupgui2_ctbatchupdatedialog.ui" line="41"/>
         <source>New Version:</source>
-        <translation>Versión nueva:</translation>
+        <translation>Nová verze:</translation>
     </message>
     <message>
         <location filename="../pupgui2/resources/ui/pupgui2_ctbatchupdatedialog.ui" line="58"/>
         <source>Old Version:</source>
-        <translation>Versión antigua:</translation>
+        <translation>Stará verze:</translation>
     </message>
     <message>
         <location filename="../pupgui2/resources/ui/pupgui2_ctbatchupdatedialog.ui" line="112"/>
         <location filename="../pupgui2/resources/ui/pupgui2_custominstalldirectorydialog.ui" line="118"/>
         <source>Close</source>
-        <translation>Cerrar</translation>
+        <translation>Zavřít</translation>
     </message>
 </context>
 <context>
@@ -308,130 +308,130 @@ Cancel and exit anyway?</source>
     <message>
         <location filename="../pupgui2/pupgui2aboutdialog.py" line="61"/>
         <source>light</source>
-        <translation>claro</translation>
+        <translation>světlý</translation>
     </message>
     <message>
         <location filename="../pupgui2/pupgui2aboutdialog.py" line="61"/>
         <source>dark</source>
-        <translation>oscuro</translation>
+        <translation>tmavý</translation>
     </message>
     <message>
         <location filename="../pupgui2/pupgui2aboutdialog.py" line="61"/>
         <source>system (restart required)</source>
-        <translation>sistema (necesario reiniciar)</translation>
+        <translation>systémový (vyžadován restart)</translation>
     </message>
     <message>
         <source>Update Steam game list</source>
-        <translation type="vanished">Actualizar la lista de juegos de Steam</translation>
+        <translation type="vanished">Erneuere Steamliste</translation>
     </message>
     <message>
         <location filename="../pupgui2/pupgui2aboutdialog.py" line="93"/>
         <source>Update available</source>
-        <translation>Actualización disponible</translation>
+        <translation>Je dostupná aktualizace</translation>
     </message>
     <message>
         <location filename="../pupgui2/pupgui2aboutdialog.py" line="94"/>
         <source>There is a newer version available.
 You are running {APP_VERSION} but {newest_version} is available.</source>
-        <translation>Hay disponible una versión más reciente.
-Estás ejecutando {APP_VERSION} pero {newest_version} está disponible.</translation>
+        <translation>Je dostupná novější verze.
+Používáte verzi {APP_VERSION}, ale je dostupná verze {newest_version}.</translation>
     </message>
     <message>
         <location filename="../pupgui2/pupgui2aboutdialog.py" line="98"/>
         <source>Up to date</source>
-        <translation>Al día</translation>
+        <translation>Aktuální</translation>
     </message>
     <message>
         <location filename="../pupgui2/pupgui2aboutdialog.py" line="98"/>
         <source>You are running the newest version!</source>
-        <translation>¡Estás ejecutando la última versión!</translation>
+        <translation>Používáte nejnovější verzi!</translation>
     </message>
     <message>
         <location filename="../pupgui2/pupgui2aboutdialog.py" line="103"/>
         <source>Added shortcut!</source>
-        <translation>¡Atajo creado!</translation>
+        <translation>Zkratka přidána!</translation>
     </message>
     <message>
         <location filename="../pupgui2/resources/ui/pupgui2_aboutdialog.ui" line="14"/>
         <source>Dialog</source>
-        <translation>Diálogo</translation>
+        <translation>Dialog</translation>
     </message>
     <message>
         <location filename="../pupgui2/resources/ui/pupgui2_aboutdialog.ui" line="40"/>
         <source>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;GUI for installing/updating Wine- and Proton-based compatibility tools.&lt;br/&gt;Inspired by/partly based on AUNaseef&apos;s protonup.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</source>
-        <translation>&lt;p&gt;GUI para instalar/actualizar herramientas de compatibilidad basadas en Wine y Proton.&lt;br&gt;Inspirado en/parcialmente basado en AUNaseef&apos;s protonup.&lt;/p&gt;</translation>
+        <translation>&lt;p&gt;Grafické rozhraní pro instalaci a aktualizaci nástrojů pro kompatibilitu založených na Wine a Protonu.&lt;br&gt;Inspirováno a částečně založeno na nástroji protonup od vývojáře AUNaseef.&lt;/p&gt;</translation>
     </message>
     <message>
         <location filename="../pupgui2/resources/ui/pupgui2_aboutdialog.ui" line="97"/>
         <source>Support development on GitHub</source>
-        <translation>Apoyar el desarrollo en GitHub</translation>
+        <translation>Podpořte vývoj na GitHubu</translation>
     </message>
     <message>
         <location filename="../pupgui2/resources/ui/pupgui2_aboutdialog.ui" line="128"/>
         <source>Color Theme:</source>
-        <translation>Tema de color:</translation>
+        <translation>Barevný motiv:</translation>
     </message>
     <message>
         <location filename="../pupgui2/resources/ui/pupgui2_aboutdialog.ui" line="145"/>
         <source>Enable advanced mode (show git-builds for compatibility tools etc.)</source>
-        <translation>Habilitar el modo avanzado (mostrar compilaciones git para herramientas de compatibilidad, etc)</translation>
+        <translation>Povolit pokročilý režim (zobrazit sestavení gitu pro nástroje pro kompatibilitu atd.)</translation>
     </message>
     <message>
         <location filename="../pupgui2/resources/ui/pupgui2_aboutdialog.ui" line="157"/>
         <source>Edit Git access tokens</source>
-        <translation>Editar tokens de acceso de Git</translation>
+        <translation>Upravit přístupové tokeny Gitu</translation>
     </message>
     <message>
         <location filename="../pupgui2/resources/ui/pupgui2_aboutdialog.ui" line="182"/>
         <source>Check for updates</source>
-        <translation>Comprobar actualizaciones</translation>
+        <translation>Zkontrolovat aktualizace</translation>
     </message>
     <message>
         <location filename="../pupgui2/resources/ui/pupgui2_aboutdialog.ui" line="202"/>
         <source>Adds a shortcut to open ProtonUp-Qt from your Steam library.
 To remove the shortcut, open Steam and select &quot;remove non-Steam game from your library&quot;.</source>
-        <translation>Crea un atajo para abrir ProtonUp-Qt desde tu biblioteca de Steam.
-Para eliminar el atajo, abre Steam, haz click derecho sobre él y elige &quot;administrar&quot; &amp;gt; &quot;eliminar un juego que no es de Steam&quot;.</translation>
+        <translation>Přidá zástupce pro spuštění ProtonUp-Qt z vaší knihovny služby Steam.
+Pro odebrání zástupce otevřete Steam a zvolte „odstranit hru, která nepochází ze služby Steam“.</translation>
     </message>
     <message>
         <location filename="../pupgui2/resources/ui/pupgui2_aboutdialog.ui" line="206"/>
         <source>Add Steam shortcut</source>
-        <translation>Crear atajo en Steam</translation>
+        <translation>Přidat zástupce do služby Steam</translation>
     </message>
     <message>
         <location filename="../pupgui2/resources/ui/pupgui2_aboutdialog.ui" line="213"/>
         <source>About Qt</source>
-        <translation>Acerca de Qt</translation>
+        <translation>O projektu Qt</translation>
     </message>
     <message>
         <location filename="../pupgui2/resources/ui/pupgui2_aboutdialog.ui" line="220"/>
         <source>Close</source>
-        <translation>Cerrar</translation>
+        <translation>Zavřít</translation>
     </message>
 </context>
 <context>
     <name>PupguiCtBatchUpdateDialog</name>
     <message>
         <source>Batch update</source>
-        <translation type="vanished">Actualización por lotes</translation>
+        <translation type="vanished">Batch Aktualisierung</translation>
     </message>
     <message>
         <source>New version:</source>
-        <translation type="vanished">Nueva versión:</translation>
+        <translation type="vanished">Neue Version:</translation>
     </message>
     <message>
         <source>Close the Steam client beforehand.</source>
-        <translation type="vanished">Cierra el cliente de Steam antes.</translation>
+        <translation type="vanished">Schließe den Steam Client vorher.</translation>
     </message>
     <message>
         <location filename="../pupgui2/pupgui2ctbatchupdatedialog.py" line="47"/>
         <source>No supported compatibility tools found.</source>
-        <translation>No se han encontrado herramientas de compatibilidad compatibles.</translation>
+        <translation>Nenalezeny žádné podporované nástroje pro kompatibilitu.</translation>
     </message>
     <message>
         <location filename="../pupgui2/pupgui2ctbatchupdatedialog.py" line="49"/>
         <source>Warning: Close the Steam Client beforehand.</source>
-        <translation>Advertencia: Cierra el cliente Steam de antemano.</translation>
+        <translation>Varování: nejprve zavřete klienta služby Steam.</translation>
     </message>
 </context>
 <context>
@@ -443,102 +443,102 @@ Para eliminar el atajo, abre Steam, haz click derecho sobre él y elige &quot;ad
     <message>
         <location filename="../pupgui2/resources/ui/pupgui2_ctinfodialog.ui" line="14"/>
         <source>About compatibility tool</source>
-        <translation>Acerca de la herramienta de compatibilidad</translation>
+        <translation>O nástroji pro kompatibilitu</translation>
     </message>
     <message>
         <location filename="../pupgui2/resources/ui/pupgui2_ctinfodialog.ui" line="26"/>
         <source>Compatibility tool:</source>
-        <translation>Herramienta de compatibilidad:</translation>
+        <translation>Nástroj pro kompatibilitu:</translation>
     </message>
     <message>
         <location filename="../pupgui2/resources/ui/pupgui2_ctinfodialog.ui" line="43"/>
         <source>Game Launcher:</source>
-        <translation>Lanzador de juegos:</translation>
+        <translation>Herní spouštěč:</translation>
     </message>
     <message>
         <location filename="../pupgui2/resources/ui/pupgui2_ctinfodialog.ui" line="60"/>
         <source>Install directory:</source>
-        <translation>Directorio de instalación:</translation>
+        <translation>Adresář instalace:</translation>
     </message>
     <message>
         <location filename="../pupgui2/resources/ui/pupgui2_ctinfodialog.ui" line="88"/>
         <source>Games using compatibility tool:</source>
-        <translation>Juegos que usan la herramienta de compatibilidad:</translation>
+        <translation>Hry používající nástroj pro kompatibilitu:</translation>
     </message>
     <message>
         <location filename="../pupgui2/resources/ui/pupgui2_ctinfodialog.ui" line="115"/>
         <source>Refresh Games</source>
-        <translation>Actualizar lista de juegos</translation>
+        <translation>Obnovit hry</translation>
     </message>
     <message>
         <location filename="../pupgui2/resources/ui/pupgui2_ctinfodialog.ui" line="129"/>
         <source>Search games...</source>
-        <translation>Buscar juegos...</translation>
+        <translation>Hledat hry…</translation>
     </message>
     <message>
         <location filename="../pupgui2/resources/ui/pupgui2_ctinfodialog.ui" line="248"/>
         <source>No games</source>
-        <translation>Sin juegos</translation>
+        <translation>Žádné hry</translation>
     </message>
     <message>
         <location filename="../pupgui2/resources/ui/pupgui2_ctinfodialog.ui" line="264"/>
         <source>Batch Update</source>
-        <translation>Actualización por lotes</translation>
+        <translation>Hromadná aktualizace</translation>
     </message>
     <message>
         <source>Batch update</source>
-        <translation type="vanished">Actualización por lotes</translation>
+        <translation type="vanished">Batch Aktualisierung</translation>
     </message>
     <message>
         <location filename="../pupgui2/resources/ui/pupgui2_ctinfodialog.ui" line="271"/>
         <source>e.g. Half-Life 3</source>
-        <translation>ej. Half-Life 3</translation>
+        <translation>např. Half-Life 3</translation>
     </message>
     <message>
         <location filename="../pupgui2/resources/ui/pupgui2_ctinfodialog.ui" line="274"/>
         <source>Search for a game...</source>
-        <translation>Buscar un juego...</translation>
+        <translation>Hledat hru…</translation>
     </message>
     <message>
         <location filename="../pupgui2/resources/ui/pupgui2_ctinfodialog.ui" line="297"/>
         <source>Close</source>
-        <translation>Cerrar</translation>
+        <translation>Zavřít</translation>
     </message>
     <message>
         <location filename="../pupgui2/pupgui2ctinfodialog.py" line="85"/>
         <source>AppID</source>
-        <translation>ID aplicación</translation>
+        <translation>AppID</translation>
     </message>
     <message>
         <location filename="../pupgui2/pupgui2ctinfodialog.py" line="85"/>
         <location filename="../pupgui2/pupgui2ctinfodialog.py" line="98"/>
         <source>Name</source>
-        <translation>Nombre</translation>
+        <translation>Název</translation>
     </message>
     <message>
         <location filename="../pupgui2/pupgui2ctinfodialog.py" line="98"/>
         <source>Slug</source>
-        <translation>Instancia</translation>
+        <translation>Zkratka</translation>
     </message>
     <message>
         <location filename="../pupgui2/pupgui2ctinfodialog.py" line="108"/>
         <source>Runner</source>
-        <translation>Ejecutor</translation>
+        <translation>Runner</translation>
     </message>
     <message>
         <location filename="../pupgui2/pupgui2ctinfodialog.py" line="108"/>
         <source>Game</source>
-        <translation>Juego</translation>
+        <translation>Hra</translation>
     </message>
     <message>
         <location filename="../pupgui2/pupgui2ctinfodialog.py" line="127"/>
         <source>Tool is Global</source>
-        <translation>Herramienta global</translation>
+        <translation>Nástroj je globální</translation>
     </message>
     <message>
         <location filename="../pupgui2/pupgui2ctinfodialog.py" line="152"/>
         <source>e.g. {GAME_NAME}</source>
-        <translation>por ejemplo {GAME_NAME}</translation>
+        <translation>např. {GAME_NAME}</translation>
     </message>
 </context>
 <context>
@@ -546,28 +546,28 @@ Para eliminar el atajo, abre Steam, haz click derecho sobre él y elige &quot;ad
     <message>
         <location filename="../pupgui2/pupgui2customiddialog.py" line="43"/>
         <source>Custom Install Directory</source>
-        <translation>Directorio de instalación personalizado</translation>
+        <translation>Vlastní adresář instalace</translation>
     </message>
     <message>
         <location filename="../pupgui2/pupgui2customiddialog.py" line="92"/>
         <source>Select Custom Install Directory — ProtonUp-Qt</source>
-        <translation>Seleccionar directorio de instalación personalizado — ProtonUp-Qt</translation>
+        <translation>Vyberte vlastní adresář instalace — ProtonUp-Qt</translation>
     </message>
     <message>
         <source>Save</source>
-        <translation type="vanished">Guardar</translation>
+        <translation type="vanished">Speichern</translation>
     </message>
     <message>
         <source>Directory:</source>
-        <translation type="vanished">Directorio:</translation>
+        <translation type="vanished">Ordner:</translation>
     </message>
     <message>
         <source>Launcher:</source>
-        <translation type="vanished">Lanzador:</translation>
+        <translation type="vanished">Launcher:</translation>
     </message>
     <message>
         <source>Reset</source>
-        <translation type="vanished">Reiniciar</translation>
+        <translation type="vanished">Zurücksetzen</translation>
     </message>
 </context>
 <context>
@@ -577,256 +577,256 @@ Para eliminar el atajo, abre Steam, haz click derecho sobre él y elige &quot;ad
         <location filename="../pupgui2/pupgui2gamelistdialog.py" line="93"/>
         <location filename="../pupgui2/pupgui2gamelistdialog.py" line="103"/>
         <source>Game</source>
-        <translation>Juego</translation>
+        <translation>Hra</translation>
     </message>
     <message>
         <location filename="../pupgui2/pupgui2gamelistdialog.py" line="81"/>
         <location filename="../pupgui2/pupgui2gamelistdialog.py" line="103"/>
         <source>Compatibility Tool</source>
-        <translation>Herramienta de compatibilidad</translation>
+        <translation>Nástroj pro kompatibilitu</translation>
     </message>
     <message>
         <location filename="../pupgui2/pupgui2gamelistdialog.py" line="81"/>
         <source>Deck Compatibility</source>
-        <translation>Compatilidad con Deck</translation>
+        <translation>Kompatibilita s Deckem</translation>
     </message>
     <message>
         <location filename="../pupgui2/pupgui2gamelistdialog.py" line="81"/>
         <source>Anticheat</source>
-        <translation>Antitrampas</translation>
+        <translation>Anti-cheat</translation>
     </message>
     <message>
         <location filename="../pupgui2/pupgui2gamelistdialog.py" line="93"/>
         <location filename="../pupgui2/pupgui2gamelistdialog.py" line="103"/>
         <source>Runner</source>
-        <translation>Ejecutor</translation>
+        <translation>Runner</translation>
     </message>
     <message>
         <location filename="../pupgui2/pupgui2gamelistdialog.py" line="93"/>
         <location filename="../pupgui2/pupgui2gamelistdialog.py" line="103"/>
         <source>Install Location</source>
-        <translation>Directorio de instalación</translation>
+        <translation>Umístění instalace</translation>
     </message>
     <message>
         <location filename="../pupgui2/pupgui2gamelistdialog.py" line="93"/>
         <source>Installed Date</source>
-        <translation>Fecha de instalación</translation>
+        <translation>Datum instalace</translation>
     </message>
     <message>
         <location filename="../pupgui2/pupgui2gamelistdialog.py" line="144"/>
         <source>click</source>
-        <translation>clic</translation>
+        <translation>kliknutí</translation>
     </message>
     <message>
         <location filename="../pupgui2/pupgui2gamelistdialog.py" line="228"/>
         <location filename="../pupgui2/pupgui2gamelistdialog.py" line="229"/>
         <location filename="../pupgui2/pupgui2gamelistdialog.py" line="435"/>
         <source>Unknown</source>
-        <translation>Desconocido</translation>
+        <translation>Neznámé</translation>
     </message>
     <message>
         <location filename="../pupgui2/pupgui2gamelistdialog.py" line="224"/>
         <source>Installed at {DATE} ({TIME})</source>
-        <translation>Instalado el {DATE} ({TIME})</translation>
+        <translation>Nainstalováno {DATE} ({TIME})</translation>
     </message>
     <message>
         <location filename="../pupgui2/pupgui2gamelistdialog.py" line="264"/>
         <source>Name: {compat_item_text}</source>
-        <translation>Nombre: {compat_item_text}</translation>
+        <translation>Název: {compat_item_text}</translation>
     </message>
     <message>
         <location filename="../pupgui2/pupgui2gamelistdialog.py" line="266"/>
         <source>
 Path: {compat_tool_bin_path}</source>
         <translation>
-Ruta: {compat_tool_bin_path}</translation>
+Cesta: {compat_tool_bin_path}</translation>
     </message>
     <message>
         <location filename="../pupgui2/pupgui2gamelistdialog.py" line="270"/>
         <source>
 Type: {wine_type}</source>
         <translation>
-Tipo: {wine_type}</translation>
+Typ: {wine_type}</translation>
     </message>
     <message>
         <location filename="../pupgui2/pupgui2gamelistdialog.py" line="273"/>
         <source>Browser</source>
-        <translation>Navegador</translation>
+        <translation>Prohlížeč</translation>
     </message>
     <message>
         <location filename="../pupgui2/pupgui2gamelistdialog.py" line="274"/>
         <source>Native</source>
-        <translation>Nativo</translation>
+        <translation>Nativní</translation>
     </message>
     <message>
         <source>Type: Native</source>
-        <translation type="vanished">Tipo: Nativo</translation>
+        <translation type="vanished">Typ: Nativ</translation>
     </message>
     <message>
         <location filename="../pupgui2/pupgui2gamelistdialog.py" line="323"/>
         <source>Done</source>
-        <translation>Listo</translation>
+        <translation>Hotovo</translation>
     </message>
     <message>
         <location filename="../pupgui2/pupgui2gamelistdialog.py" line="323"/>
         <location filename="../pupgui2/resources/ui/pupgui2_gamelistdialog.ui" line="112"/>
         <source>Search</source>
-        <translation>Buscar</translation>
+        <translation>Hledat</translation>
     </message>
     <message>
         <location filename="../pupgui2/pupgui2gamelistdialog.py" line="393"/>
         <source>Double click to browse...</source>
-        <translation>Doble clic para explorar...</translation>
+        <translation>Klikněte dvakrát pro procházení…</translation>
     </message>
     <message>
         <location filename="../pupgui2/pupgui2gamelistdialog.py" line="396"/>
         <source>Install location does not exist!</source>
-        <translation>¡El directorio de instalación no existe!</translation>
+        <translation>Umístění instalace neexistuje!</translation>
     </message>
     <message>
         <location filename="../pupgui2/pupgui2gamelistdialog.py" line="437"/>
         <source>Unsupported</source>
-        <translation>No soportado</translation>
+        <translation>Nepodporováno</translation>
     </message>
     <message>
         <location filename="../pupgui2/pupgui2gamelistdialog.py" line="440"/>
         <source>Playable</source>
-        <translation>Jugable</translation>
+        <translation>Hratelné</translation>
     </message>
     <message>
         <location filename="../pupgui2/pupgui2gamelistdialog.py" line="442"/>
         <source>Native (playable)</source>
-        <translation>Nativo (jugable)</translation>
+        <translation>Nativní (hratelné)</translation>
     </message>
     <message>
         <location filename="../pupgui2/pupgui2gamelistdialog.py" line="443"/>
         <source>Playable using {compat_tool}</source>
-        <translation>Jugable usando {compat_tool}</translation>
+        <translation>Hratelné s použitím {compat_tool}</translation>
     </message>
     <message>
         <location filename="../pupgui2/pupgui2gamelistdialog.py" line="447"/>
         <source>Verified</source>
-        <translation>Verificado</translation>
+        <translation>Ověřeno</translation>
     </message>
     <message>
         <location filename="../pupgui2/pupgui2gamelistdialog.py" line="449"/>
         <source>Native (verified)</source>
-        <translation>Nativo (verificado)</translation>
+        <translation>Nativní (ověřeno)</translation>
     </message>
     <message>
         <location filename="../pupgui2/pupgui2gamelistdialog.py" line="450"/>
         <source>Verified for {compat_tool}</source>
-        <translation>Verificado para {compat_tool}</translation>
+        <translation>Ověřeno s {compat_tool}</translation>
     </message>
     <message>
         <location filename="../pupgui2/pupgui2gamelistdialog.py" line="409"/>
         <source>Support was explicitly enabled / works out of the box</source>
-        <translation>El soporte fue explícitamente habilitado / funciona de forma inmediata</translation>
+        <translation>Podpora byla explicitně povolena / funguje ihned po spuštění</translation>
     </message>
     <message>
         <location filename="../pupgui2/pupgui2gamelistdialog.py" line="63"/>
         <source>Game List for {LAUNCHER}</source>
-        <translation>Lista de juegos para {LAUNCHER}</translation>
+        <translation>Seznam her v klientu {LAUNCHER}</translation>
     </message>
     <message>
         <location filename="../pupgui2/pupgui2gamelistdialog.py" line="66"/>
         <source>Installed games: {NO_INSTALLED}</source>
-        <translation>Juegos instalados: {NO_INSTALLED}</translation>
+        <translation>Nainstalované hry: {NO_INSTALLED}</translation>
     </message>
     <message>
         <location filename="../pupgui2/pupgui2gamelistdialog.py" line="230"/>
         <source>Install Date is Unknown</source>
-        <translation>La fecha de instalación es desconocida</translation>
+        <translation>Datum instalace je neznámé</translation>
     </message>
     <message>
         <location filename="../pupgui2/pupgui2gamelistdialog.py" line="274"/>
         <source>Type: {PLATFORM}</source>
-        <translation>Tipo: {PLATFORM}</translation>
+        <translation>Typ: {PLATFORM}</translation>
     </message>
     <message>
         <location filename="../pupgui2/pupgui2gamelistdialog.py" line="283"/>
         <source>Double-click to open in browser</source>
-        <translation>Doble clic para abrir en el navegador</translation>
+        <translation>Klikněte dvakrát pro otevření v prohlížeči</translation>
     </message>
     <message>
         <location filename="../pupgui2/pupgui2gamelistdialog.py" line="319"/>
         <source>e.g. {GAME_NAME}</source>
-        <translation>por ejemplo {GAME_NAME}</translation>
+        <translation>např. {GAME_NAME}</translation>
     </message>
     <message>
         <location filename="../pupgui2/pupgui2gamelistdialog.py" line="412"/>
         <source>Game plans to support Proton/Wine</source>
-        <translation>El juego tiene planes de soportar Proton/Wine</translation>
+        <translation>Hra plánuje podporu Protonu/Wine</translation>
     </message>
     <message>
         <location filename="../pupgui2/pupgui2gamelistdialog.py" line="415"/>
         <source>No official statement but runs fine (may require tinkering)</source>
-        <translation>No hay anuncio oficial, pero se ejecuta correctamente (podría necesitar ajustes adicionales)</translation>
+        <translation>Žádné oficiální vyjádření, ale funguje bez problémů (může vyžadovat nastavení)</translation>
     </message>
     <message>
         <location filename="../pupgui2/pupgui2gamelistdialog.py" line="418"/>
         <source>Anti-Cheat stops game from running properly</source>
-        <translation>El sistema Anti-trampas evita que el juego se ejecute correctamente</translation>
+        <translation>Anti-cheat neumožňuje správný běh hry</translation>
     </message>
     <message>
         <location filename="../pupgui2/pupgui2gamelistdialog.py" line="421"/>
         <source>Linux support was explicitly denied</source>
-        <translation>El soporte a Linux fue explícitamente denegado</translation>
+        <translation>Podpora Linuxu byla výslovně zamítnuta</translation>
     </message>
     <message>
         <location filename="../pupgui2/pupgui2gamelistdialog.py" line="424"/>
         <source>Anti-Cheat status unknown</source>
-        <translation>Estado del anti-trampas desconocido</translation>
+        <translation>Stav anti-cheatu není známý</translation>
     </message>
     <message>
         <location filename="../pupgui2/pupgui2gamelistdialog.py" line="355"/>
         <source>Confidence: {confidence}
 Score: {score}
 Trending: {trending}</source>
-        <translation>Confianza: {confidence}
-Puntuación: {score}
-Tendencia: {trending}</translation>
+        <translation>Jistota: {confidence}
+Skóre: {score}
+Trendy: {trending}</translation>
     </message>
     <message>
         <location filename="../pupgui2/resources/ui/pupgui2_gamelistdialog.ui" line="17"/>
         <source>Game List</source>
-        <translation>Lista de juegos</translation>
+        <translation>Seznam her</translation>
     </message>
     <message>
         <location filename="../pupgui2/resources/ui/pupgui2_gamelistdialog.ui" line="61"/>
         <source>Warning: Close the Steam client beforehand so that the changes can be applied!</source>
-        <translation>Aviso: ¡Cierra el cliente de Steam antes para que los cambios sean aplicados!</translation>
+        <translation>Varování: nejprve zavřete klienta služby Steam, aby mohly být použity změny!</translation>
     </message>
     <message>
         <location filename="../pupgui2/resources/ui/pupgui2_gamelistdialog.ui" line="68"/>
         <source>e.g. Team Fortress 2</source>
-        <translation>ej. Team Fortress 2</translation>
+        <translation>např. Team Fortress 2</translation>
     </message>
     <message>
         <location filename="../pupgui2/resources/ui/pupgui2_gamelistdialog.ui" line="71"/>
         <source>Search for a game...</source>
-        <translation>Buscar un juego...</translation>
+        <translation>Hledat hru…</translation>
     </message>
     <message>
         <location filename="../pupgui2/resources/ui/pupgui2_gamelistdialog.ui" line="91"/>
         <source>Refresh Games</source>
-        <translation>Actualizar lista de juegos</translation>
+        <translation>Obnovit hry</translation>
     </message>
     <message>
         <location filename="../pupgui2/resources/ui/pupgui2_gamelistdialog.ui" line="105"/>
         <source>Shortcut Editor</source>
-        <translation>Editor de los accesos directos</translation>
+        <translation>Editor zkratek</translation>
     </message>
     <message>
         <location filename="../pupgui2/pupgui2gamelistdialog.py" line="299"/>
         <location filename="../pupgui2/resources/ui/pupgui2_gamelistdialog.ui" line="119"/>
         <source>Apply</source>
-        <translation>Aplicar</translation>
+        <translation>Použít</translation>
     </message>
     <message>
         <location filename="../pupgui2/pupgui2gamelistdialog.py" line="298"/>
         <source>Close</source>
-        <translation>Cerrar</translation>
+        <translation>Zavřít</translation>
     </message>
 </context>
 <context>
@@ -834,42 +834,42 @@ Tendencia: {trending}</translation>
     <message>
         <location filename="../pupgui2/resources/ui/pupgui2_installdialog.ui" line="20"/>
         <source>Install Compatibility Tool</source>
-        <translation>Instalar herramienta de compatibilidad</translation>
+        <translation>Nainstalovat nástroj pro kompatibilitu</translation>
     </message>
     <message>
         <location filename="../pupgui2/resources/ui/pupgui2_installdialog.ui" line="91"/>
         <source>Info</source>
-        <translation>Información</translation>
+        <translation>Informace</translation>
     </message>
     <message>
         <location filename="../pupgui2/resources/ui/pupgui2_installdialog.ui" line="98"/>
         <source>Install</source>
-        <translation>Instalar</translation>
+        <translation>Instalovat</translation>
     </message>
     <message>
         <location filename="../pupgui2/resources/ui/pupgui2_installdialog.ui" line="105"/>
         <source>Cancel</source>
-        <translation>Cancelar</translation>
+        <translation>Zrušit</translation>
     </message>
     <message>
         <location filename="../pupgui2/resources/ui/pupgui2_installdialog.ui" line="32"/>
         <source>Compatibility tool:</source>
-        <translation>Herramienta de compatibilidad:</translation>
+        <translation>Nástroj pro kompatibilitu:</translation>
     </message>
     <message>
         <location filename="../pupgui2/resources/ui/pupgui2_installdialog.ui" line="46"/>
         <source>Version:</source>
-        <translation>Versión:</translation>
+        <translation>Verze:</translation>
     </message>
     <message>
         <location filename="../pupgui2/resources/ui/pupgui2_installdialog.ui" line="56"/>
         <source>Description:</source>
-        <translation>Descripción:</translation>
+        <translation>Popis:</translation>
     </message>
     <message>
         <location filename="../pupgui2/pupgui2installdialog.py" line="108"/>
         <source>Load more...</source>
-        <translation>Cargar más...</translation>
+        <translation>Načíst další…</translation>
     </message>
 </context>
 <context>
@@ -877,77 +877,77 @@ Tendencia: {trending}</translation>
     <message>
         <location filename="../pupgui2/pupgui2shortcutdialog.py" line="83"/>
         <source>App Name</source>
-        <translation>Nombre de la aplicación</translation>
+        <translation>Název aplikace</translation>
     </message>
     <message>
         <location filename="../pupgui2/pupgui2shortcutdialog.py" line="83"/>
         <source>Executable</source>
-        <translation>Ejecutable</translation>
+        <translation>Spustitelný soubor</translation>
     </message>
     <message>
         <location filename="../pupgui2/pupgui2shortcutdialog.py" line="83"/>
         <source>Start Directory</source>
-        <translation>Directorio de inicio</translation>
+        <translation>Spouštěcí adresář</translation>
     </message>
     <message>
         <location filename="../pupgui2/pupgui2shortcutdialog.py" line="83"/>
         <source>Icon</source>
-        <translation>Icono</translation>
+        <translation>Ikona</translation>
     </message>
     <message>
         <location filename="../pupgui2/resources/ui/pupgui2_shortcutdialog.ui" line="17"/>
         <source>Steam Shortcut Editor</source>
-        <translation>Editor de accesos directos Steam</translation>
+        <translation>Editor zkratek služby Steam</translation>
     </message>
     <message>
         <location filename="../pupgui2/resources/ui/pupgui2_shortcutdialog.ui" line="57"/>
         <source>Add a new shortcut</source>
-        <translation>Añadir un nuevo acceso directo</translation>
+        <translation>Přidat novou zkratku</translation>
     </message>
     <message>
         <location filename="../pupgui2/resources/ui/pupgui2_shortcutdialog.ui" line="60"/>
         <source>Add new</source>
-        <translation>Añadir nuevo</translation>
+        <translation>Přidat novou</translation>
     </message>
     <message>
         <location filename="../pupgui2/resources/ui/pupgui2_shortcutdialog.ui" line="67"/>
         <source>Click on a row, then click here to remove a shortcut</source>
-        <translation>Haz clic en una fila y, a continuación, haz clic aquí para eliminar un acceso directo</translation>
+        <translation>Klikněte na řádek, poté klikněte sem pro odstranění zkratky</translation>
     </message>
     <message>
         <location filename="../pupgui2/resources/ui/pupgui2_shortcutdialog.ui" line="70"/>
         <source>Remove selected</source>
-        <translation>Eliminar la selección</translation>
+        <translation>Odstranit vybrané</translation>
     </message>
     <message>
         <location filename="../pupgui2/resources/ui/pupgui2_shortcutdialog.ui" line="77"/>
         <source>e.g. ProtonUp-Qt</source>
-        <translation>por ejemplo ProtonUp-Qt</translation>
+        <translation>např. ProtonUp-Qt</translation>
     </message>
     <message>
         <location filename="../pupgui2/resources/ui/pupgui2_shortcutdialog.ui" line="80"/>
         <source>Search for a game...</source>
-        <translation>Buscando un juego...</translation>
+        <translation>Hledat hru…</translation>
     </message>
     <message>
         <location filename="../pupgui2/resources/ui/pupgui2_shortcutdialog.ui" line="87"/>
         <source>Save changes and delete marked shortcuts</source>
-        <translation>Guardar los cambios y eliminar los accesos directos marcados</translation>
+        <translation>Uložit změny a odstranit označené zkratky</translation>
     </message>
     <message>
         <location filename="../pupgui2/resources/ui/pupgui2_shortcutdialog.ui" line="90"/>
         <source>Save</source>
-        <translation>Guardar</translation>
+        <translation>Uložit</translation>
     </message>
     <message>
         <location filename="../pupgui2/resources/ui/pupgui2_shortcutdialog.ui" line="97"/>
         <source>Close without saving changes or deleting shortcuts</source>
-        <translation>Cerrar sin guardar los cambios y no borrar los accesos directos</translation>
+        <translation>Zavřít bez uložení změn nebo odstranění zkratek</translation>
     </message>
     <message>
         <location filename="../pupgui2/resources/ui/pupgui2_shortcutdialog.ui" line="100"/>
         <source>Close</source>
-        <translation>Cerrar</translation>
+        <translation>Zavřít</translation>
     </message>
 </context>
 <context>
@@ -955,14 +955,14 @@ Tendencia: {trending}</translation>
     <message>
         <location filename="../pupgui2/resources/ctmods/ctmod_00protonge.py" line="22"/>
         <source>Steam compatibility tool for running Windows games with improvements over Valve&apos;s default Proton.&lt;br/&gt;&lt;br/&gt;&lt;b&gt;Use this when you don&apos;t know what to choose.&lt;/b&gt;</source>
-        <translation>Herramienta de compatibilidad para Steam para ejecutar juegos de Windows con mejoras sobre el Proton predeterminado de Valve.&lt;br&gt;&lt;br&gt;&lt;b&gt;Usa ésta cuando no sepas qué elegir.&lt;/b&gt;</translation>
+        <translation>Nástroj pro kompatibilitu pro službu Steam určený ke spouštění her pro Windows, s vylepšeními oproti výchozímu Protonu od Valve.&lt;br&gt;&lt;br&gt;&lt;b&gt;Použijte, pokud si nevíte rady s výběrem.&lt;/b&gt;</translation>
     </message>
 </context>
 <context>
     <name>ctmod_00winege</name>
     <message>
         <source>Compatibility tool &quot;Wine&quot; to run Windows games on Linux. Based on Valve Proton Experimental&apos;s bleeding-edge Wine, built for Lutris.&lt;br/&gt;&lt;br/&gt;&lt;b&gt;Use this when you don&apos;t know what to choose.&lt;/b&gt;</source>
-        <translation type="vanished">Herramienta de compatibilidad &quot;Wine&quot; para ejecutar juegos de Windows en Linux. Basado en el Wine altamente experimental (bleeding-edge) del Proton Experimental de Valve, compilado para Lutris.&lt;br&gt;&lt;br&gt;&lt;b&gt;Usa ésta cuando no sepas qué elegir.&lt;/b&gt;</translation>
+        <translation type="vanished">Kompatibilitätstool &quot;Wine&quot; für Windows-Spiele unter Linux. Basiert auf der neusten Wine Version von Value Proton Experimental, für Lutris.&lt;br/&gt;&lt;br/&gt;&lt;b&gt;Verwende dies, wenn du dir nicht sicher bist.&lt;/b&gt;</translation>
     </message>
 </context>
 <context>
@@ -970,34 +970,34 @@ Tendencia: {trending}</translation>
     <message>
         <location filename="../pupgui2/resources/ctmods/ctmod_boxtron.py" line="15"/>
         <source>Steam Play compatibility tool to run DOS games using native Linux DOSBox.</source>
-        <translation>Herramienta de compatibilidad Steam Play para ejecutar juegos de DOS usando un DOSBox nativo de Linux.</translation>
+        <translation>Nástroj pro kompatibilitu služby Steam Play pro spouštění her pro DOS pomocí nativního Linux DOSBoxu.</translation>
     </message>
     <message>
         <source>missing</source>
-        <translation type="vanished">no encontrado</translation>
+        <translation type="vanished">fehlt</translation>
     </message>
     <message>
         <source>found</source>
-        <translation type="vanished">encontrado</translation>
+        <translation type="vanished">gefunden</translation>
     </message>
     <message>
         <source>Missing dependencies!</source>
-        <translation type="vanished">¡Dependencias faltantes!</translation>
+        <translation type="vanished">Fehlende Abhängigkeiten!</translation>
     </message>
     <message>
         <source>You need dosbox, inotify-tools and timidity for Boxtron.</source>
-        <translation type="vanished">Necesitas dosbox, inotify-tools y timidity para usar Boxtron.</translation>
+        <translation type="vanished">Es werden dosbox, inotify-tools und timidity für Boxtron benötigt.</translation>
     </message>
     <message>
         <source>Will continue installing Boxtron anyway.</source>
-        <translation type="vanished">La instalación de Boxtron continuará de todos modos.</translation>
+        <translation type="vanished">Installation von Boxtron wird fortgesetzt.</translation>
     </message>
 </context>
 <context>
     <name>ctmod_d8vk</name>
     <message>
         <source>Vulkan-based implementation of Direct3D 8/9/10/11 (Nightly).&lt;br/&gt;&lt;br/&gt;&lt;b&gt;Warning: Nightly version is unstable, use with caution!&lt;/b&gt;</source>
-        <translation type="vanished">Implementación de Direct3D 8/9/10/11 basa en Vulkan (Nocturna).&lt;br&gt;&lt;br&gt;&lt;b&gt;Aviso: ¡La versión nocturna es inestable, úsala con precaución!&lt;/b&gt;</translation>
+        <translation type="vanished">Vulkan-basierte Implementierung von Direct3D 8/9/10/11 (Nightly).&lt;br/&gt;&lt;br/&gt;&lt;b&gt;Achtung: Nightly Versionen sind instabil!&lt;/b&gt;</translation>
     </message>
 </context>
 <context>
@@ -1005,7 +1005,7 @@ Tendencia: {trending}</translation>
     <message>
         <location filename="../pupgui2/resources/ctmods/ctmod_kron4ekvanilla.py" line="20"/>
         <source>Compatibility tool &quot;Wine&quot; to run Windows games on Linux. Official version from the WineHQ sources, compiled by Kron4ek.</source>
-        <translation>Herramienta de compatibilidad &quot;Wine&quot; para ejecutar juegos de Windows en Linux. Versión oficial de las fuentes WineHQ, compilada por Kron4ek.</translation>
+        <translation>Nástroj pro kompatibilitu „Wine“ pro spouštění her pro Windows na Linuxu. Oficiální verze ze zdrojů WineHQ, zkompilovaná uživatelem Kron4ek.</translation>
     </message>
 </context>
 <context>
@@ -1013,7 +1013,7 @@ Tendencia: {trending}</translation>
     <message>
         <location filename="../pupgui2/resources/ctmods/ctmod_lutriswine.py" line="17"/>
         <source>Compatibility tool &quot;Wine&quot; to run Windows games on Linux. Improved by Lutris to offer better compatibility or performance in certain games.</source>
-        <translation>Herramienta de compatibilidad &quot;Wine&quot; para ejecutar juegos de Windows en Linux. Mejorada por Lutris para ofrecer mejor compatibilidad o rendimiento en determinados juegos.</translation>
+        <translation>Nástroj pro kompatibilitu „Wine“ pro spouštění her pro Windows na Linuxu. Vylepšený nástrojem Lutris, aby nabízel lepší kompatibilitu nebo výkon v určitých hrách.</translation>
     </message>
 </context>
 <context>
@@ -1021,19 +1021,19 @@ Tendencia: {trending}</translation>
     <message>
         <location filename="../pupgui2/resources/ctmods/ctmod_luxtorpeda.py" line="22"/>
         <source>Luxtorpeda provides Linux-native game engines for specific Windows-only games.</source>
-        <translation>Luxtorpeda ofrece motores de juego nativos para Linux para juegos específicos que están disponible solamente para Windows.</translation>
+        <translation>Luxtorpeda poskytuje nativní herní enginy pro Linux pro konkrétní hry určené pouze pro Windows.</translation>
     </message>
 </context>
 <context>
     <name>ctmod_northstarproton</name>
     <message>
         <source>Proton build based on TKG&apos;s proton-tkg to run the Northstar client + TitanFall 2. By cyrv6737.&lt;br/&gt;&lt;br/&gt;&lt;b style=&quot;color:orange;&quot;&gt;Read the following before proceeding&lt;/b&gt;:&lt;br/&gt;&lt;a href=&quot;https://github.com/cyrv6737/NorthstarProton&quot;&gt;https://github.com/cyrv6737/NorthstarProton&lt;/a&gt;</source>
-        <translation type="vanished">Compilación de Proton basada en el proton-tkg de TKG para ejecutar el cliente Northstar + TitanFall 2. Por cyrv6737.&lt;br&gt;&lt;br&gt;&lt;b style=&quot;color:orange;&quot;&gt;Lee lo siguiente antes de proceder&lt;/b&gt;:&lt;br&gt;&lt;a href=&quot;https://github.com/cyrv6737/NorthstarProton&quot;&gt;https://github.com/cyrv6737/NorthstarProton&lt;/a&gt;</translation>
+        <translation type="vanished">Proton Build auf Basis von TKGs Proton-tkg, um den Northstar Client + TitanFall 2 zu nutzen. Von cyrv6737.&lt;br/&gt;&lt;br/&gt;&lt;b style=&quot;color:orange;&quot;&gt;Vor dem Fortfahren bitte folgendes lesen&lt;/b&gt;:&lt;br/&gt;&lt;a href=&quot;https://github.com/cyrv6737/NorthstarProton&quot;&gt;https://github.com/cyrv6737/NorthstarProton&lt;/a&gt;</translation>
     </message>
     <message>
         <location filename="../pupgui2/resources/ctmods/ctmod_northstarproton.py" line="17"/>
         <source>Proton build based on TKG&apos;s proton-tkg to run the Northstar client + TitanFall 2. By cyrv6737.&lt;br/&gt;&lt;br/&gt;&lt;b style=&quot;color:orange;&quot;&gt;Read the following before proceeding&lt;/b&gt;:&lt;br/&gt;&lt;a href=&quot;https://github.com/R2NorthstarTools/NorthstarProton&quot;&gt;https://github.com/R2NorthstarTools/NorthstarProton&lt;/a&gt;</source>
-        <translation>Proton basado en proton-tkg de TKG para ejecutar el cliente Northstar + TitanFall 2. Por cyrv6737.&lt;br&gt;&lt;br&gt;&lt;b style=&quot;color:orange;&quot;&gt;Lea lo siguiente antes de continuar&lt;/b&gt;:&lt;br&gt;&lt;a href=&quot;https://github.com/R2NorthstarTools/NorthstarProton&quot;&gt;https://github.com/R2NorthstarTools/NorthstarProton&lt;/a&gt;</translation>
+        <translation>Sestavení Protonu založené na proton-tkg od TKG pro spuštění klienta Northstar + TitanFall 2. Od cyrv6737.&lt;br&gt;&lt;br&gt;&lt;b style=&quot;color:orange;&quot;&gt;Než budete pokračovat, přečtěte si následující&lt;/b&gt;:&lt;br&gt;&lt;a href=&quot;https://github.com/R2NorthstarTools/NorthstarProton&quot;&gt;https://github.com/R2NorthstarTools/NorthstarProton&lt;/a&gt;</translation>
     </message>
 </context>
 <context>
@@ -1049,12 +1049,12 @@ Tendencia: {trending}</translation>
         * &lt;b&gt;x86_64_v3&lt;/b&gt;: For CPUs that support AVX2 and up
         </source>
         <translation>
-        Herramienta de compatibilidad de Steam de la distribución Linux CachyOS para ejecutar juegos de Windows
-        con mejoras respecto al Proton predeterminado de Valve. Elija el que corresponda a su CPU.
+        Nástroj pro kompatibilitu se Steamem z linuxové distribuce CachyOS pro spouštění her pro Windows
+        s vylepšeními oproti výchozímu Protonu od Valve. Vyberte si verzi odpovídající vašemu procesoru.
         &lt;br&gt;&lt;br&gt;
-        * &lt;b&gt;x86_64&lt;/b&gt;: Funciona en cualquier CPU x64_64
-        &lt;br&gt;
-        * &lt;b&gt;x86_64_v3&lt;/b&gt;: Para CPU que admiten AVX2 o superior
+        * &lt;b&gt;x86_64&lt;/b&gt;: Funguje na jakémkoli procesoru x86_64
+        &lt;br&gt;&amp;gt;
+        * &lt;b&gt;x86_64_v3&lt;/b&gt;: Pro procesory s podporou AVX2 a vyšší
         </translation>
     </message>
 </context>
@@ -1063,7 +1063,7 @@ Tendencia: {trending}</translation>
     <message>
         <location filename="../pupgui2/resources/ctmods/ctmod_protontkg.py" line="20"/>
         <source>Custom Proton build for running Windows games, built with the Wine-tkg build system.</source>
-        <translation>Compilación personalizada de Proton para ejecutar juegos de Windows, construida con el sistema de compilación Wine-tkg.</translation>
+        <translation>Vlastní sestavení Protonu pro spouštění her pro Windows, sestavený pomocí systému Wine-tkg.</translation>
     </message>
 </context>
 <context>
@@ -1074,10 +1074,10 @@ Tendencia: {trending}</translation>
 &lt;br/&gt;
 &lt;br/&gt;
 This build is based on &lt;b&gt;Wine Master&lt;/b&gt;.</source>
-        <translation>Compilación personalizada de Proton para ejecutar juegos de Windows, construida con el sistema de compilación Wine-tkg.
+        <translation>Vlastní sestavení Protonu pro spouštění her pro Windows, sestavený pomocí systému Wine-tkg.
 &lt;br&gt;
 &lt;br&gt;
-Ésta compilación está basada en &lt;b&gt;Wine Master&lt;/b&gt;.</translation>
+Toto sestavení je založené na &lt;b&gt;Wine Master&lt;/b&gt;.</translation>
     </message>
 </context>
 <context>
@@ -1085,27 +1085,27 @@ This build is based on &lt;b&gt;Wine Master&lt;/b&gt;.</source>
     <message>
         <location filename="../pupgui2/resources/ctmods/ctmod_roberta.py" line="15"/>
         <source>Steam Play compatibility tool to run adventure games using native Linux ScummVM.</source>
-        <translation>Herramienta de compatibilidad Steam Play para ejecutar aventuras gráficas usando ScummVM nativo de Linux.</translation>
+        <translation>Nástroj pro kompatibilitu se Steam Play pro spouštění adventur pomocí nativního ScummVM pro Linux.</translation>
     </message>
     <message>
         <source>missing</source>
-        <translation type="vanished">no encontrado</translation>
+        <translation type="vanished">fehlt</translation>
     </message>
     <message>
         <source>found</source>
-        <translation type="vanished">encontrado</translation>
+        <translation type="vanished">gefunden</translation>
     </message>
     <message>
         <source>Missing dependencies!</source>
-        <translation type="vanished">¡Dependencias faltantes!</translation>
+        <translation type="vanished">Fehlende Abhängigkeiten!</translation>
     </message>
     <message>
         <source>You need scummvm and inotify-tools for Roberta.</source>
-        <translation type="vanished">Necesitas scummvm and inotify-tools para usar Roberta.</translation>
+        <translation type="vanished">Es werden scummvm und inotify-tools für Roberta benötigt.</translation>
     </message>
     <message>
         <source>Will continue installing Roberta anyway.</source>
-        <translation type="vanished">La instalación de Roberta continuará de todos modos.</translation>
+        <translation type="vanished">Installation von Roberta wird fortgesetzt.</translation>
     </message>
 </context>
 <context>
@@ -1113,7 +1113,7 @@ This build is based on &lt;b&gt;Wine Master&lt;/b&gt;.</source>
     <message>
         <location filename="../pupgui2/resources/ctmods/ctmod_rtspgeproton.py" line="15"/>
         <source>Fork of GE-Proton with enhanced Windows Media Foundation support.</source>
-        <translation>Fork de GE-Proton con soporte mejorado para Windows Media Foundation.</translation>
+        <translation>Fork nástroje GE-Proton s vylepšenou podporou Windows Media Foundation.</translation>
     </message>
 </context>
 <context>
@@ -1121,7 +1121,7 @@ This build is based on &lt;b&gt;Wine Master&lt;/b&gt;.</source>
     <message>
         <location filename="../pupgui2/resources/ctmods/ctmod_steamplaynone.py" line="21"/>
         <source>Run Linux games as is, even if Valve recommends Proton for a game.&lt;br/&gt;Created by Scrumplex.&lt;br/&gt;&lt;br/&gt;Useful for Steam Deck.&lt;br/&gt;&lt;br/&gt;Note: The internal name has been changed from &lt;b&gt;none&lt;/b&gt; to &lt;b&gt;Steam-Play-None&lt;/b&gt;!</source>
-        <translation>Ejecutar juegos de Linux tal como están, incluso si Valve recomienda Proton para ellos&lt;br&gt;Creado por Scrumplex.&lt;br&gt;&lt;br&gt;Útil para Steam Deck.&lt;br&gt;&lt;br&gt;¡Nota: El nombre interno ha sido cambiado de &lt;b&gt;none&lt;/b&gt; a &lt;b&gt;Steam-Play-None&lt;/b&gt;!</translation>
+        <translation>Spouštějte hry pro Linux v jejich nativní podobě, i když pro danou hru Valve doporučuje Proton.&lt;br&gt;Vytvořil Scrumplex.&lt;br&gt;&lt;br&gt;Užitečné pro Steam Deck.&lt;br&gt;&lt;br&gt;Poznámka: interní název byl změněn z &lt;b&gt;none&lt;/b&gt; na &lt;b&gt;Steam-Play-None&lt;/b&gt;!</translation>
     </message>
 </context>
 <context>
@@ -1151,11 +1151,11 @@ More information is available on the SteamTinkerLaunch Installation wiki page.
 SteamTinkerLaunch has a number of &lt;b&gt;Optional Dependencies&lt;/b&gt; which have to be installed separately for extra functionality. Please see the Optional Dependencies section
 of the SteamTinkerLaunch Installation guide on its GitHub page.</source>
         <translation>
-Herramienta de lanzamiento para Linux para usar con el cliente de Steam, la cual permite una fácil configuración de las herramientas de juego desde una interfaz gráfica. tanto para juegos de Proton como nativos de Linux.
+Nástroj pro Linux, který se používá s klientem Steam a umožňuje snadnou grafickou konfiguraci herních nástrojů pro Proton a nativní linuxové hry.
 &lt;br&gt;&lt;br&gt;
-En &lt;b&gt;Steam Deck&lt;/b&gt;, las dependencias relevantes serán instaladas por ti. Si no estás en Steam Deck, &lt;b&gt;asegúrate de tener las siguientes dependencias instaladas&lt;/b&gt;:
+Na &lt;b&gt;Steam Decku&lt;/b&gt; se vám příslušné závislosti nainstalují automaticky. Pokud Steam Deck nepoužíváte, &lt;b&gt;ujistěte se, že máte nainstalovány následující závislosti&lt;/b&gt;:
 &lt;ul&gt;
-  &lt;li&gt;awk (or gawk)&lt;/li&gt;
+  &lt;li&gt;awk (nebo gawk)&lt;/li&gt;
   &lt;li&gt;bash&lt;/li&gt;
   &lt;li&gt;git&lt;/li&gt;
   &lt;li&gt;pgrep&lt;/li&gt;
@@ -1168,17 +1168,17 @@ En &lt;b&gt;Steam Deck&lt;/b&gt;, las dependencias relevantes serán instaladas 
   &lt;li&gt;xxd&lt;/li&gt;
   &lt;li&gt;Yad &amp;gt;= &lt;b&gt;v7.2&lt;/b&gt;&lt;/li&gt;
 &lt;/ul&gt;
-Hay más información disponible en la página de instalación en la wiki de SteamTinkerLaunch.
+Více informací je k dispozici na wiki stránce o instalaci SteamTinkerLaunch.
 &lt;br&gt;&lt;br&gt;
-SteamTinkerLaunch tiene un número de &lt;b&gt;Dependencias opcionales&lt;/b&gt; que deben ser instaladas por separado para obtener funcionalidades extra. Por favor mira la sección Dependencias opcionales 
-de la guía de instalación de SteamTinkerLaunch en su página de GitHub..</translation>
+SteamTinkerLaunch má řadu &lt;b&gt;volitelných závislostí&lt;/b&gt;, které je nutné pro další funkce nainstalovat samostatně. Podívejte se prosím do sekce Volitelné závislosti
+v průvodci instalací SteamTinkerLaunch na jeho stránce na GitHubu.</translation>
     </message>
     <message>
         <location filename="../pupgui2/resources/ctmods/ctmod_steamtinkerlaunch.py" line="205"/>
         <source>You have several unmet dependencies for SteamTinkerLaunch.
 
 </source>
-        <translation>Tienes varias dependencias sin cumplir para SteamTinkerLaunch.
+        <translation>Máte několik nevyřešených závislostí nástroje SteamTinkerLaunch.
 
 </translation>
     </message>
@@ -1189,17 +1189,17 @@ de la guía de instalación de SteamTinkerLaunch en su página de GitHub..</tran
 Installation will be cancelled.</source>
         <translation>
 
-La instalación será cancelada.</translation>
+Instalace bude zrušena.</translation>
     </message>
     <message>
         <location filename="../pupgui2/resources/ctmods/ctmod_steamtinkerlaunch.py" line="207"/>
         <source>Missing dependencies!</source>
-        <translation>¡Dependencias faltantes!</translation>
+        <translation>Chybějící závislosti!</translation>
     </message>
     <message>
         <location filename="../pupgui2/resources/ctmods/ctmod_steamtinkerlaunch.py" line="239"/>
         <source>Existing SteamTinkerLaunch Installation</source>
-        <translation>Instalación existente de SteamTinkerLaunch</translation>
+        <translation>Existující instalace SteamTinkerLaunch</translation>
     </message>
     <message>
         <location filename="../pupgui2/resources/ctmods/ctmod_steamtinkerlaunch.py" line="240"/>
@@ -1208,35 +1208,35 @@ La instalación será cancelada.</translation>
 Reinstalling SteamTinkerLaunch with ProtonUp-Qt will move your installation folder to &apos;{STL_INSTALL_PATH}&apos;.
 
 You may also choose to remove your existing installation, if ProtonUp-Qt has write access to this folder. Do you want to continue installing SteamTinkerLaunch? (This will not affect any existing SteamTinkerLaunch configuration.)</source>
-        <translation>Al parecer tienes una instalación existente de SteamTinkerLaunch en &apos;{EXTERNAL_INSTALL_PATH}&apos; que no fue instalada por ProtonUp-Qt.
+        <translation>Zdá se, že již máte existující instalaci SteamTinkerLaunch v „{EXTERNAL_INSTALL_PATH}“, která nebyla nainstalována pomocí ProtonUp-Qt.
 
-Reinstalar SteamTinkerLaunch con ProtonUp-Qt moverá tu directorio de instalación a &apos;{STL_INSTALL_PATH}&apos;.
+Přeinstalováním SteamTinkerLaunch pomocí ProtonUp-Qt se vaše instalační složka přesune do „{STL_INSTALL_PATH}“.
 
-También puedes decidir eliminar la instalación existente, si ProtonUp-Qt tiene acceso de escritura a ese directorio. ¿Deseas continuar instalando SteamTinkerLaunch? (Esto no afectará ninguna configuración existente de SteamTinkerLaunch.)</translation>
+Můžete se také rozhodnout odstranit stávající instalaci, pokud má ProtonUp-Qt do této složky oprávnění k zápisu. Chcete pokračovat v instalaci SteamTinkerLaunch? (Toto neovlivní žádnou stávající konfiguraci SteamTinkerLaunch.)</translation>
     </message>
     <message>
         <location filename="../pupgui2/resources/ctmods/ctmod_steamtinkerlaunch.py" line="241"/>
         <source>Remove existing SteamTinkerLaunch installation</source>
-        <translation>Eliminar instalación existente de SteamTinkerLaunch</translation>
+        <translation>Odstranit existující instalaci SteamTinkerLaunch</translation>
     </message>
     <message>
         <location filename="../pupgui2/resources/ctmods/ctmod_steamtinkerlaunch.py" line="350"/>
         <source>Add SteamTinkerLaunch to PATH</source>
-        <translation>Añadir SteamTinkerLaunch a PATH</translation>
+        <translation>Přidat SteamTinkerLaunch do PATH</translation>
     </message>
     <message>
         <location filename="../pupgui2/resources/ctmods/ctmod_steamtinkerlaunch.py" line="351"/>
         <source>By default, ProtonUp-Qt will add SteamTinkerLaunch to all available Shell paths. This makes it easier to use with native Linux games. It also enables SteamTinkerLaunch commands from anywhere in the command line.
 
 Some users may not want this functionality. Do you want to continue installing SteamTinkerLaunch?</source>
-        <translation>Por defecto, ProtonUp-Qt añadirá SteamTinkerLaunch a todas las rutas del Shell disponibles. Esto lo hace más fácil de usar con juegos nativos de Linux. También habilita comandos de SteamTinkerLaunch desde cualquier lugar en la línea de comandos.
+        <translation>Ve výchozím nastavení přidá ProtonUp-Qt nástroj SteamTinkerLaunch do všech dostupných cest Shellu. To usnadňuje jeho použití s nativními linuxovými hrami. Také to umožňuje spouštět příkazy SteamTinkerLaunch odkudkoli z příkazového řádku.
 
-Algunos usuarios podrían no querer ésta funcionalidad. ¿Deseas seguir instalando SteamTinkerLaunch?</translation>
+Někteří uživatelé si tuto funkci nemusí přát. Chcete pokračovat v instalaci SteamTinkerLaunch?</translation>
     </message>
     <message>
         <location filename="../pupgui2/resources/ctmods/ctmod_steamtinkerlaunch.py" line="352"/>
         <source>Allow PATH modification</source>
-        <translation>Permitir modificación del PATH</translation>
+        <translation>Povolit úpravu PATH</translation>
     </message>
 </context>
 <context>
@@ -1268,13 +1268,13 @@ More information is available on the SteamTinkerLaunch Installation wiki page.
 SteamTinkerLaunch has a number of &lt;b&gt;Optional Dependencies&lt;/b&gt; which have to be installed separately for extra functionality. Please see the Optional Dependencies section
 of the SteamTinkerLaunch Installation guide on its GitHub page.</source>
         <translation>
-&lt;b&gt;Lanzamiento de git - Podría ser inestable&lt;/b&gt;
+&lt;b&gt;Vydání z Gitu – může být nestabilní&lt;/b&gt;
 &lt;br&gt;&lt;br&gt;
-Herramienta de lanzamiento para Linux para usar con el cliente de Steam, la cual permite una fácil configuración de las herramientas de juego desde una interfaz gráfica. tanto para juegos de Proton como nativos de Linux.
+Nástroj pro Linux, který se používá s klientem Steam a umožňuje snadnou grafickou konfiguraci herních nástrojů pro Proton a nativní linuxové hry.
 &lt;br&gt;&lt;br&gt;
-En &lt;b&gt;Steam Deck&lt;/b&gt;, las dependencias relevantes serán instaladas por ti. Si no estás en Steam Deck, &lt;b&gt;asegúrate de tener las siguientes dependencias instaladas&lt;/b&gt;:
+Na &lt;b&gt;Steam Decku&lt;/b&gt; se vám příslušné závislosti nainstalují automaticky. Pokud Steam Deck nepoužíváte, &lt;b&gt;ujistěte se, že máte nainstalovány následující závislosti&lt;/b&gt;:
 &lt;ul&gt;
-  &lt;li&gt;awk (or gawk)&lt;/li&gt;
+  &lt;li&gt;awk (nebo gawk)&lt;/li&gt;
   &lt;li&gt;bash&lt;/li&gt;
   &lt;li&gt;git&lt;/li&gt;
   &lt;li&gt;pgrep&lt;/li&gt;
@@ -1287,10 +1287,10 @@ En &lt;b&gt;Steam Deck&lt;/b&gt;, las dependencias relevantes serán instaladas 
   &lt;li&gt;xxd&lt;/li&gt;
   &lt;li&gt;Yad &amp;gt;= &lt;b&gt;v7.2&lt;/b&gt;&lt;/li&gt;
 &lt;/ul&gt;
-Hay más información disponible en la página de instalación en la wiki de SteamTinkerLaunch.
+Více informací je k dispozici na wiki stránce o instalaci SteamTinkerLaunch.
 &lt;br&gt;&lt;br&gt;
-SteamTinkerLaunch tiene un número de &lt;b&gt;Dependencias opcionales&lt;/b&gt; que deben ser instaladas por separado para obtener funcionalidades extra. Por favor mira la sección Dependencias opcionales
-de la guía de instalación de SteamTinkerLaunch en su página de GitHub..</translation>
+SteamTinkerLaunch má řadu &lt;b&gt;volitelných závislostí&lt;/b&gt;, které je nutné pro další funkce nainstalovat samostatně. Podívejte se prosím do sekce Volitelné závislosti
+v průvodci instalací SteamTinkerLaunch na jeho stránce na GitHubu.</translation>
     </message>
 </context>
 <context>
@@ -1298,7 +1298,7 @@ de la guía de instalación de SteamTinkerLaunch en su página de GitHub..</tran
     <message>
         <location filename="../pupgui2/resources/ctmods/ctmod_vkd3dlutris.py" line="14"/>
         <source>Fork of Wine&apos;s VKD3D which aims to implement the full Direct3D 12 API on top of Vulkan (Lutris Release).&lt;br/&gt;&lt;br/&gt;https://github.com/lutris/docs/blob/master/HowToDXVK.md</source>
-        <translation>Bifurcación (Fork) del VKD3D de Wine que apunta a implementar la API completa de Direct3D 12 a través de Vulkan (Lanzamiento de Lutris).&lt;br&gt;&lt;br&gt;https://github.com/lutris/docs/blob/master/HowToDXVK.md</translation>
+        <translation>Fork VKD3D z projektu Wine, jehož cílem je implementovat plné API Direct3D 12 nad Vulkanem (vydání Lutris).&lt;br&gt;&lt;br&gt;https://github.com/lutris/docs/blob/master/HowToDXVK.md</translation>
     </message>
 </context>
 <context>
@@ -1306,71 +1306,67 @@ de la guía de instalación de SteamTinkerLaunch en su página de GitHub..</tran
     <message>
         <location filename="../pupgui2/resources/ctmods/ctmod_vkd3dproton.py" line="19"/>
         <source>Fork of Wine&apos;s VKD3D which aims to implement the full Direct3D 12 API on top of Vulkan (Valve Release).&lt;br/&gt;&lt;br/&gt;https://github.com/lutris/docs/blob/master/HowToDXVK.md</source>
-        <translation>Bifurcación (Fork) del VKD3D de Wine que apunta a implementar la API completa de Direct3D 12 a través de Vulkan (Lanzamiento de Valve).&lt;br&gt;&lt;br&gt;https://github.com/lutris/docs/blob/master/HowToDXVK.md</translation>
+        <translation>Fork VKD3D z projektu Wine, jehož cílem je implementovat plné Direct3D 12 API nad Vulkanem (vydání od Valve).&lt;br&gt;&lt;br&gt;https://github.com/lutris/docs/blob/master/HowToDXVK.md</translation>
     </message>
 </context>
 <context>
     <name>ctmod_winetkg_valve_otherdistro</name>
     <message>
         <source>Custom Wine build for running Windows games, built with the Wine-tkg build system.</source>
-        <translation type="vanished">Compilación personalizada de Wine para ejecutar juegos de Windows, construida con el sistema de compilación Wine-tkg.</translation>
+        <translation type="vanished">Eigener Wine Build für Windows-Spiele, erstellt mit dem Wine-Tkg Buildsystem.</translation>
     </message>
     <message>
         <location filename="../pupgui2/resources/ctmods/ctmod_winetkg_valve_otherdistro.py" line="15"/>
         <source>Custom Wine build for running Windows games, built with the Wine-tkg build system based on &lt;b&gt;Valve Wine bleeding_edge&lt;/b&gt;.</source>
-        <translation>Compilación personalizada de Wine para ejecutar juegos de Windows, construida con el sistema de compilación Wine-tkg basado en &lt;b&gt;Valve Wine bleeding_edge&lt;/b&gt;.</translation>
+        <translation>Vlastní sestavení Wine pro spouštění her pro Windows, vytvořené pomocí systému Wine-tkg a založené na &lt;b&gt;Valve Wine bleeding_edge&lt;/b&gt;.</translation>
     </message>
 </context>
 <context>
     <name>ctmod_winetkg_vanilla_ubuntu</name>
     <message>
         <source>Custom Wine build for running Windows games, built with the Wine-tkg build system.</source>
-        <translation type="vanished">Compilación personalizada de Wine para ejecutar juegos de Windows, construida con el sistema de compilación Wine-tkg.</translation>
+        <translation type="vanished">Eigener Wine Build für Windows-Spiele, erstellt mit dem Wine-Tkg Buildsystem.</translation>
     </message>
     <message>
         <location filename="../pupgui2/resources/ctmods/ctmod_winetkg_winemaster.py" line="15"/>
         <source>Custom Wine build for running Windows games, built with the Wine-tkg build system (Ubuntu CI) based on &lt;b&gt;Wine Master&lt;/b&gt;.</source>
-        <translation>Compilación personalizada de Wine para ejecutar juegos de Windows, construida con el sistema de compilación Wine-tkg (Ubuntu CI) basado en &lt;b&gt;Wine Master&lt;/b&gt;.</translation>
+        <translation>Vlastní sestavení Wine pro spouštění her pro Windows, vytvořené pomocí systému Wine-tkg (Ubuntu CI) a založené na &lt;b&gt;Wine Master&lt;/b&gt;.</translation>
     </message>
 </context>
 <context>
     <name>ctmod_z0dxvk</name>
     <message>
         <source>Vulkan based implementation of Direct3D 9, 10 and 11 for Linux/Wine.&lt;br/&gt;&lt;br/&gt;https://github.com/lutris/docs/blob/master/HowToDXVK.md</source>
-        <translation type="vanished">Implementación basada en Vulkan de Direct3D 9, 10 y 11 para Linux/Wine.&lt;br&gt;&lt;br&gt;https://github.com/lutris/docs/blob/master/HowToDXVK.md</translation>
+        <translation type="vanished">Vulkan-basierte Implementierung von Direct3D 9, 10 und 11 für Linux/Wine.&lt;br/&gt;&lt;br/&gt;https://github.com/lutris/docs/blob/master/HowToDXVK.md</translation>
     </message>
     <message>
         <location filename="../pupgui2/resources/ctmods/ctmod_z0dxvk.py" line="22"/>
         <source>Vulkan based implementation of Direct3D 8, 9, 10, and 11 for Linux/Wine.&lt;br/&gt;&lt;br/&gt;https://github.com/lutris/docs/blob/master/HowToDXVK.md</source>
-        <translation>Implementación de Direct3D 8, 9, 10 y 11 basada en Vulkan para Linux/Wine.&lt;br&gt;&lt;br&gt;https://github.com/lutris/docs/blob/master/HowToDXVK.md</translation>
+        <translation>Implementace Direct3D 8, 9, 10 a 11 pro Linux/Wine založená na Vulkanu.&lt;br&gt;&lt;br&gt;https://github.com/lutris/docs/blob/master/HowToDXVK.md</translation>
     </message>
 </context>
 <context>
     <name>ctmod_z1dxvkasync</name>
     <message>
         <source>Vulkan based implementation of Direct3D 9, 10 and 11 for Linux/Wine with async patch by Sporif.&lt;br/&gt;&lt;br/&gt;&lt;b&gt;Warning: Use only with singleplayer games!&lt;/b&gt;</source>
-        <translation type="vanished">Implementación basada en Vulkan de Direct3D 9, 10 y 11 para Linux/Wine con parche async por Sporif.&lt;br&gt;&lt;br&gt;&lt;b&gt;¡Aviso: úsala solamente con juegos para un jugador!&lt;/b&gt;</translation>
-    </message>
-    <message>
-        <source>Vulkan based implementation of Direct3D 9, 10 and 11 for Linux/Wine with gplasync patch by Ph42oN.&lt;br/&gt;&lt;br/&gt;&lt;b&gt;Warning: Use only with singleplayer games!&lt;/b&gt;</source>
-        <translation type="vanished">Implementación basada en Vulkan de Direct3D 9, 10 y 11 para Linux/Wine con parche gplasync de Ph42oN.&lt;br&gt;&lt;br&gt;&lt;b&gt;Advertencia: ¡Úselo solo con juegos para un solo jugador!&lt;/b&gt;</translation>
+        <translation type="vanished">Vulkan-basierte Implementierung von Direct3D 9, 10 und 11 für Linux/Wine mit Sporifs Async Patch.&lt;br/&gt;&lt;br/&gt;&lt;b&gt;Achtung: Nur für Singleplayer Spiele geeignet!&lt;/b&gt;</translation>
     </message>
     <message>
         <location filename="../pupgui2/resources/ctmods/ctmod_z1dxvkasync.py" line="16"/>
         <source>Vulkan based implementation of Direct3D 8, 9, 10, and 11 for Linux/Wine with gplasync patch by Ph42oN.&lt;br/&gt;&lt;br/&gt;&lt;b&gt;Warning: Use only with singleplayer games!&lt;/b&gt;</source>
-        <translation>Implementación basada en Vulkan de Direct3D 8, 9, 10 y 11 para Linux/Wine con parche gplasync de Ph42oN.&lt;br&gt;&lt;br&gt;&lt;b&gt;Advertencia: ¡Úsela solo con juegos para un jugador!&lt;/b&gt;</translation>
+        <translation>Implementace Direct3D 8, 9, 10 a 11 pro Linux/Wine založená na Vulkanu s opravou gplasync od vývojáře Ph42oN.&lt;br&gt;&lt;br&gt;&lt;b&gt;Varování: používejte pouze u her pro jednoho hráče!&lt;/b&gt;</translation>
     </message>
 </context>
 <context>
     <name>ctmod_z2dxvknightly</name>
     <message>
         <source>Nightly version of DXVK (master branch), a Vulkan based implementation of Direct3D 9, 10 and 11 for Linux/Wine.&lt;br/&gt;&lt;br/&gt;&lt;b&gt;Warning: Nightly version is unstable, use with caution!&lt;/b&gt;</source>
-        <translation type="vanished">Versión nocturna de DXVK (rama maestra), una implementación basada en Vulkan de Direct3D 9, 10 y 11 para Linux/Wine.&lt;br&gt;&lt;br&gt;&lt;b&gt;¡Aviso: la versión nocturna es inestable, úsala con precaución!&lt;/b&gt;</translation>
+        <translation type="vanished">Nightly Version von DXVK (master branch), Vulkan-basierte Implementierung von Direct3D 9, 10 und 11 für Linux/Wine.&lt;br/&gt;&lt;br/&gt;&lt;b&gt;Achtung: Nightly Versionen sind nicht stabil!&lt;/b&gt;</translation>
     </message>
     <message>
         <location filename="../pupgui2/resources/ctmods/ctmod_z2dxvknightly.py" line="19"/>
         <source>Nightly version of DXVK (master branch), a Vulkan based implementation of Direct3D 8, 9, 10 and 11 for Linux/Wine.&lt;br/&gt;&lt;br/&gt;&lt;b&gt;Warning: Nightly version is unstable, use with caution!&lt;/b&gt;</source>
-        <translation>Versión nocturna de DXVK (rama principal), una implementación basada en Vulkan de Direct3D 8, 9, 10 y 11 para Linux/Wine.&lt;br&gt;&lt;br&gt;&lt;b&gt;Advertencia: La versión nocturna es inestable, ¡úsela con precaución!&lt;/b&gt;</translation>
+        <translation>Vývojová (Nightly) verze DXVK (větev master), implementace Direct3D 8, 9, 10 a 11 pro Linux/Wine založená na Vulkanu.&lt;br&gt;&lt;br&gt;&lt;b&gt;Varování: vývojová verze je nestabilní, používejte ji s opatrností!&lt;/b&gt;</translation>
     </message>
 </context>
 <context>
@@ -1378,16 +1374,16 @@ de la guía de instalación de SteamTinkerLaunch en su página de GitHub..</tran
     <message>
         <location filename="../pupgui2/steamutil.py" line="499"/>
         <source>Unable to Remove SteamTinkerLaunch</source>
-        <translation>No se ha podido eliminar SteamTinkerLaunch</translation>
+        <translation>Nepodařilo se odstranit SteamTinkerLaunch</translation>
     </message>
     <message>
         <location filename="../pupgui2/steamutil.py" line="502"/>
         <source>Access to SteamTinkerLaunch installation folder at &apos;{STL_SYMLINK_PATH}&apos; was denied, please remove this folder manually.
 
 The uninstallation will continue.</source>
-        <translation>El acceso al directorio de instalación de SteamTinkerLaunch en &apos;{STL_SYMLINK_PATH}&apos; fue denegado, por favor elimina este directorio manualmente.
+        <translation>Přístup k instalační složce SteamTinkerLaunch v „{STL_SYMLINK_PATH}“ byl odepřen, odstraňte prosím tuto složku ručně.
 
-La desinstalación continuará.</translation>
+Odinstalace bude pokračovat.</translation>
     </message>
 </context>
 <context>
@@ -1395,7 +1391,7 @@ La desinstalación continuará.</translation>
     <message>
         <location filename="../pupgui2/pupgui2aboutdialog.py" line="40"/>
         <source>Translated by DavidoTek</source>
-        <translation>Traducido por Francisco T, Jaime AG, etc</translation>
+        <translation>Přeložil Jonáš Loskot</translation>
     </message>
 </context>
 <context>
@@ -1403,53 +1399,53 @@ La desinstalación continuará.</translation>
     <message>
         <location filename="../pupgui2/util.py" line="369"/>
         <source>Delete SteamTinkerLaunch configuration</source>
-        <translation>Eliminar la configuración de SteamTinkerLaunch</translation>
+        <translation>Odstranit konfiguraci SteamTinkerLaunch</translation>
     </message>
     <message>
         <location filename="../pupgui2/util.py" line="370"/>
         <source>Uninstalling SteamTinkerLaunch</source>
-        <translation>Desinstalando SteamTinkerLaunch</translation>
+        <translation>Odinstalace SteamTinkerLaunch</translation>
     </message>
     <message>
         <location filename="../pupgui2/util.py" line="371"/>
         <source>SteamTinkerLaunch will be removed from your system. If this tool was installed with ProtonUp-Qt, this will also update your PATH to remove SteamTinkerLaunch.
 Do you want the configuration to be removed?</source>
-        <translation>SteamTinkerLaunch será eliminado de tu sistema. Si ésta herramienta fue instalada con ProtonUp-Qt, esto también actualizará tu PATH para eliminar SteamTinkerLaunch.
-¿Deseas eliminar la configuración?</translation>
+        <translation>SteamTinkerLaunch bude odstraněn z vašeho systému. Pokud byl tento nástroj nainstalován pomocí ProtonUp-Qt, bude také aktualizována vaše proměnná PATH, aby byl SteamTinkerLaunch odstraněn.
+Chcete odstranit i konfigurační soubory?</translation>
     </message>
     <message>
         <location filename="../pupgui2/util.py" line="560"/>
         <source>Warning: GitHub API rate limit exceeded!</source>
-        <translation>¡Aviso: límite de cadencia de la API de GitHub excedido!</translation>
+        <translation>Varování: dosáhli jste limitu počtu požadavků na API GitHub!</translation>
     </message>
     <message>
         <location filename="../pupgui2/util.py" line="561"/>
         <source>GitHub API rate limit exceeded. You may need to wait a while or specify a GitHub API key if you have one.
 
 See https://github.com/DavidoTek/ProtonUp-Qt/issues/161#issuecomment-1358200080 for details.</source>
-        <translation>Límite de cadencia de la API de GitHub excedido. Puede que tengas que esperar un poco o proveer una clave de API de GitHub si tienes una.
+        <translation>Byl překročen limit požadavků na API GitHub. Možná budete muset chvíli počkat nebo zadat svůj klíč API GitHub, pokud jej máte.
 
-Mira https://github.com/DavidoTek/ProtonUp-Qt/issues/161#issuecomment-1358200080 para más detalles.</translation>
+Podrobnosti naleznete na https://github.com/DavidoTek/ProtonUp-Qt/issues/161#issuecomment-1358200080.</translation>
     </message>
     <message>
         <location filename="../pupgui2/util.py" line="574"/>
         <source>Warning: GitLab API rate limit exceeded!</source>
-        <translation>Advertencia: ¡Se ha superado el límite de velocidad de la API de GitLab!</translation>
+        <translation>Varování: dosáhli jste limitu počtu požadavků na API GitLab!</translation>
     </message>
     <message>
         <location filename="../pupgui2/util.py" line="575"/>
         <source>GitLab API rate limite exceeded. You may want to wait a while or specify a GitLab API key generated for this GitLab instance if you have one.</source>
-        <translation>Se ha superado el límite de velocidad de la API de GitLab. Puede que quieras esperar un poco o especificar una clave de API de GitLab generada para esta instancia de GitLab si tienes una.</translation>
+        <translation>Byl překročen limit počtu požadavků na API GitLab. Můžete chvíli počkat, nebo zadat klíč API GitLab vygenerovaný pro tuto instanci GitLabu, pokud jej máte.</translation>
     </message>
     <message>
         <location filename="../pupgui2/util.py" line="923"/>
         <source>missing</source>
-        <translation>desaparecido</translation>
+        <translation>chybějící</translation>
     </message>
     <message>
         <location filename="../pupgui2/util.py" line="924"/>
         <source>found</source>
-        <translation>encontró</translation>
+        <translation>nalezeno</translation>
     </message>
     <message>
         <location filename="../pupgui2/util.py" line="926"/>
@@ -1458,11 +1454,11 @@ Mira https://github.com/DavidoTek/ProtonUp-Qt/issues/161#issuecomment-1358200080
 {DEP_ENUM}
 
 Will continue the installation anyway.</source>
-        <translation>Necesita las siguientes dependencias para {CT_NAME}:
+        <translation>Pro {CT_NAME} potřebujete následující závislosti:
 
 {DEP_ENUM}
 
-Continuará la instalación de todos modos.</translation>
+Instalace bude přesto pokračovat.</translation>
     </message>
 </context>
 </TS>
